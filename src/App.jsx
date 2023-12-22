@@ -14,10 +14,10 @@ function App() {
   return (
    <BrowserRouter>
    <Routes>
-    <Route path="/" element= {<Home />} />
-    <Route path="/about" element= {<About />} />
-    <Route path="/cuaca" element= {<Cuaca />} />
-    <Route path="/portofolio" element= {<Portofolio />} />
+    <Route path="/belajar-react/" element= {<Home />} />
+    <Route path="/belajar-react/about/" element= {<About />} />
+    <Route path="/belajar-react/cuaca/" element= {<Cuaca />} />
+    <Route path="/belajar-react/portofolio/" element= {<Portofolio />} />
    </Routes>
    </BrowserRouter>
   )

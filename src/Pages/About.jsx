@@ -9,16 +9,16 @@ export default function About () {
     const color = ["sky", "red", "green"];
 
     const picture = [
-        "./1.png",
-        "./2.jpeg",
-        "./3.jpeg"
+        "/belajar-react./1.png",
+        "/belajar-react./2.jpeg",
+        "/belajar-react./3.jpeg"
     ];
 
 
     return (
         <div>
             <h1 >About</h1>
-            <HyperLink to={"/"}>
+            <HyperLink to={"/belajar-react/"}>
                 <p>Go To Home</p>
             </HyperLink>
             <div className={"h-20 w-20b bg-" + data + "-500"}></div>

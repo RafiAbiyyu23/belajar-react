@@ -7,9 +7,9 @@ export default function Portofolio() {
       setShow(!show);
     }  
     const PortoGambar = [
-      "./public/isiBiodata.png",
-      "./public/Resepayam.png",
-      "./public/Login.png",
+      "/belajar-react./public/isiBiodata.png",
+      "/belajar-react./public/Resepayam.png",
+      "/belajar-react./public/Login.png",
   ]
   return (
         <div>
@@ -94,7 +94,7 @@ export default function Portofolio() {
       </div>
       <div className="col-span-12 -order-1 md:order-1 md:col-span-6 p-20 md:p-28">
         <div className="rounded-full border-8 hover:scale-110 overflow-hidden w-fit">
-          <img src="./public/1.png" alt="Abiyyu" />
+          <img src="/belajar-react./public/1.png" alt="Abiyyu" />
         </div>
       </div>
     </div>

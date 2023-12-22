@@ -30,13 +30,13 @@ export default function Home() {
             <h1 className="text-3xl text-cyan-500 text-center font-teko" >Home Page</h1>
                 <div className="flex gap-8 justify-center my-6">
 
-            <HyperLink to="/about">
+            <HyperLink to="/belajar-react/about/">
                 <p>Go to about</p>
             </HyperLink>
-            <HyperLink to="/cuaca">
+            <HyperLink to="/belajar-react/cuaca/">
                 <p>Go to cuaca</p>
             </HyperLink>
-            <HyperLink to="/portofolio">
+            <HyperLink to="/belajar-react/portofolio/">
                 <p>Go to Portofolio</p>
             </HyperLink>
                 </div>
